@@ -28,6 +28,7 @@
     "!**/__tests__",
     "interactions",
     "skeleton",
+    "skeleton/react-native-linear-gradient",
     "index.d.ts",
     "svg",
     "author"
@@ -47,6 +48,11 @@
       "import": "./build/skeleton/index.js",
       "require": "./build/skeleton/index.js",
       "types": "./skeleton/index.d.ts"
+    },
+    "./skeleton/react-native-linear-gradient": {
+      "import": "./build/skeleton/react-native-linear-gradient.js",
+      "require": "./build/skeleton/react-native-linear-gradient.js",
+      "types": "./skeleton/react-native-linear-gradient.d.ts"
     },
     "./svg": {
       "import": "./build/svg/index.js",
